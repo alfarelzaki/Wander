@@ -114,7 +114,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         // Add a marker in Sydney and move the camera
         LatLng jogja = new LatLng(-7.797, 110.370);
         mMap.addMarker(new MarkerOptions().position(jogja)
-                .title("Marker in Yogyakarta").snippet("I am here!"));
+                .title("Marker in Yogyakarta").snippet("I'm here!"));
         float zoom = 13;
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(jogja, zoom));
 
